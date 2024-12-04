@@ -5,5 +5,5 @@ services:
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
     envVars:
-      - key: ANTHROPIC_API_KEY
+      - key: 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
         sync: false
