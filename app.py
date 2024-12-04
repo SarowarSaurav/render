@@ -11,7 +11,7 @@ CORS(app)  # Enable CORS for all routes
 def analyze_leaf_disease():
     # Get the image and API key from the request
     image_base64 = request.json.get('image')
-    api_key = os.getenv('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')
+    api_key = os.getenv("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")
 
     if not api_key:
         return jsonify({"error": "API Key not configured"}), 400
