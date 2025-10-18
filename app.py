@@ -6,6 +6,7 @@ from flask_cors import CORS
 import traceback
 import logging
 
+
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
